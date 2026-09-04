@@ -54,7 +54,7 @@ python -m src.middle_office
 pytest -q
 ```
 
-## Interview interpretation
+## Operational insights
 
 The objective of matching is not to reprice a trade but to ensure that both parties agree on the economics before settlement. A high-value unmatched trade settling today is more urgent than a small future-dated rounding difference. Exception management therefore combines the nature of the break, settlement proximity, ageing and exposure.
 
