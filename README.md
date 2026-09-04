@@ -1,5 +1,7 @@
 # Trade Lifecycle & Middle-Office Controls
 
+**Accès rapide pour les recruteurs :** [voir le code Python principal](middle_office_controls.py) · [voir les tests](tests/test_middle_office.py)
+
 Python case study reproducing a simplified Front-to-Back control workflow for FX, bonds, equities, listed futures and OTC interest-rate swaps.
 
 ## Business objective
@@ -39,6 +41,7 @@ All transactions and counterparties are fictional. The workflow is deliberately 
 ## Repository structure
 
 ```text
+middle_office_controls.py          Main Python file visible at repository root
 src/middle_office.py           Control and reporting engine
 tests/test_middle_office.py    Operational-control tests
 outputs/                       Generated exception and KPI reports
